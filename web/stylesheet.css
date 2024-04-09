@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'aimeefont-regular';
+  src: url('aimeefont-regular-webfont.woff2') format('woff2'),
+    url('aimeefont-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.aimeefont {
+  font-family: 'aimeefont-regular', Arial, sans-serif;
+}
