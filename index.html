@@ -18,6 +18,7 @@
       font-weight: bold;
       padding: 0.2em;
       border-radius: 0.2em;
+      letter-spacing: 2px;
     }
 
     h1 {
@@ -32,15 +33,38 @@
       font-size: 1.5em;
     }
 
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      font-size: 40px;
+      padding: 0.5em;
+      border: 1px solid #888;
+    }
+
     a {
       color: #eee;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body class="aimeefont">
   <h1>aimeefont</h1>
-  <p><em>my handwriting as a font</em></p>
+  <p>my handwriting as a font</p>
+
+  <h2>Examples</h2>
+  <table>
+    <tr>
+      <td>Regular, 40px</td>
+      <td style="font-style: italic;">Italic, 40px</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Bold, 40px</td>
+      <td style="font-weight: bold; font-style: italic;">Bold Italic, 40px</td>
+    </tr>
+  </table>
 
   <h2>How to use it</h2>
   <p>Add the following CSS stylesheet:</p>
