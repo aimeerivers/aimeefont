@@ -24,8 +24,8 @@
 
 @font-face {
   font-family: 'aimeefont';
-  src: url('aimeefont_bolditalic-webfont.woff2') format('woff2'),
-    url('aimeefont_bolditalic-webfont.woff') format('woff');
+  src: url('aimeefont-bolditalic-webfont.woff2') format('woff2'),
+    url('aimeefont-bolditalic-webfont.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
