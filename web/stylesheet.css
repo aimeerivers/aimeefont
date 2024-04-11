@@ -1,11 +1,19 @@
 @font-face {
-  font-family: 'aimeefont-regular';
+  font-family: 'aimeefont';
   src: url('aimeefont-regular-webfont.woff2') format('woff2'),
     url('aimeefont-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'aimeefont';
+  src: url('aimeefont-bold-webfont.woff2') format('woff2'),
+    url('aimeefont-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .aimeefont {
-  font-family: 'aimeefont-regular', Arial, sans-serif;
+  font-family: 'aimeefont', Arial, sans-serif;
 }
